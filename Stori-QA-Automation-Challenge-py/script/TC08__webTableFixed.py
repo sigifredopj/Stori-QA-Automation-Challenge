@@ -14,11 +14,15 @@ class unitTest(unittest.TestCase):
         driver.maximize_window()
         driver.get('https://rahulshettyacademy.com/AutomationPractice/')
 
-        driver.find_elements_by_xpath('')
-        #for int i=1;i<=list.length;i+ :
-        #text1 = driver.find_element_by_xpath("//*[@class='general_table']/div["+i+"]/div[1]").text;
-        #text2 = driver.find_element_by_xpath("//*[@class='general_table']/div["+i+"]/div[2]").text;
-
+        #driver.find_elements(by=By.CSS_SELECTOR, value= 'html body div.block.large-row-spacer div.right-align fieldset div.tableFixHead table#product')
+        rows=len(driver.find_elements(by=By.XPATH, value='/html/body/div[3]/div[2]/fieldset[2]/div[1]/table/tbody/tr'))
+        cols=len(driver.find_elements(by=By.XPATH, value='/html/body/div[3]/div[2]/fieldset[2]/div[1]/table/tbody/tr[1]/th'))
+        for n in range(2, rows+1):
+            for b in range(1, cols+1):
+                value = driver.find_element(by=By.XPATH, value='/html/body/div[3]/div[2]/fieldset[2]/div[1]/table/tbody/tr['+str(n)+']/td['+str(b)+']and[contains(text(), "Engineer")]').text
+                print(value, end='  | ')
+        
+        
 
 if __name__ == "__main__": 
     unittest.main()
