@@ -30,8 +30,8 @@ This tools are needed to run this project <br>
 *  https://rahulshettyacademy.com/AutomationPractice <br>
 
 ## RTM <br>
-* You can find a file called storiRTM.xlsx on folder RTM <br>
-
+* You can find a file called storiRTM.xlsx on folder <a href= "https://github.com/sigifredopj/Stori-QA-Automation-Challenge/tree/main/Stori-QA-Automation-Challenge-py/RTM
+">RTM </a> <br>
 ## Reports <br>
-
+* Reports are <a href="https://github.com/sigifredopj/Stori-QA-Automation-Challenge/tree/main/Stori-QA-Automation-Challenge-py/Reports">here</a>  <br>
 
