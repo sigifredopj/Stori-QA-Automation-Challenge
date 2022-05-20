@@ -29,6 +29,9 @@ This tools are needed to run this project <br>
 
 *  https://rahulshettyacademy.com/AutomationPractice <br>
 
+## Scripts
+* Scripts are <a href="https://github.com/sigifredopj/Stori-QA-Automation-Challenge/tree/main/Stori-QA-Automation-Challenge-py/script">here</a>  <br>
+
 ## RTM <br>
 * You can find a file called storiRTM.xlsx on folder <a href= "https://github.com/sigifredopj/Stori-QA-Automation-Challenge/tree/main/Stori-QA-Automation-Challenge-py/RTM
 ">RTM </a> <br>
